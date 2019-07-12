@@ -1,0 +1,29 @@
+
+settings.json 수정하기
+ 
+- 아래와 같이 수정바랍니다.
+ 
+Path : C:\Users\SDS\Documents\AirSim
+ 
+File : settings.json
+  
+    {
+	 "SettingsVersion": 1.2,
+	 "SimMode" : "Car",
+	 "ClockSpeed": 1
+    }
+	 
+위 내용은 가장 기본 형태의 세팅입니다.
+
+
+
+
+03. Airsim 모듈 설치하기
+
+command (cmd) 창 혹은 Anaconda Prompt를 관리자 권한으로 실행 후 아래 명령어를 입력하시기 바랍니다.
+ 
+(command 창에서 pip install 이 원활하게 진행되지 않는 경우, Anaconda Prompt를 권장합니다.)
+ 
+프록시 설정은 선택 사항입니다. 개발 환경(사내/사외)에 따라 적절하게 변경하세요.
+
+ C:\Users\SDS>pip install airsim --proxy 프록시주소:포트 --trusted-host pypi.org 
